@@ -1,4 +1,5 @@
 Heavy Metalpedia - Uma Base de Conhecimento
+
 Esta é uma aplicação web interativa que funciona como uma enciclopédia para álbuns clássicos e influentes do Heavy Metal. O objetivo é oferecer uma plataforma onde fãs e curiosos possam navegar, pesquisar e descobrir informações sobre os discos icônicos que moldaram o gênero, desde seus primórdios até os subgêneros mais importantes.
 
 A interface foi projetada para ser intuitiva e agradável, permitindo que o usuário explore o conteúdo de forma fluida. As principais funcionalidades incluem:
