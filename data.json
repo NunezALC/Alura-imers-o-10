@@ -1,0 +1,352 @@
+[
+  {
+    "banda": "Black Sabbath",
+    "album": "Paranoid",
+    "ano": "1970",
+    "descricao": "Considerado um dos álbuns mais importantes e influentes da história do heavy metal, 'Paranoid' solidificou o som sombrio e pesado da banda, com riffs icônicos de Tony Iommi e os vocais inconfundíveis de Ozzy Osbourne.",
+    "tracklist": "War Pigs, Paranoid, Planet Caravan, Iron Man, Electric Funeral, Hand of Doom, Rat Salad, Fairies Wear Boots",
+    "link": "https://pt.wikipedia.org/wiki/Paranoid_(%C3%A1lbum)",
+    "imagem": "img/Black-Sabbath.jpg",
+    "spotify_link": "https://open.spotify.com/album/4kA2o0L3tz9vFKJetiFUJI?si=2g2nQVe4SSenMG3ipuGf3w"
+  },
+  {
+    "banda": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "ano": "1982",
+    "descricao": "Este álbum marcou a estreia do vocalista Bruce Dickinson e é um divisor de águas na carreira do Iron Maiden. Com hinos como 'Run to the Hills' e a faixa-título, tornou-se um clássico absoluto do metal.",
+    "tracklist": "Invaders, Children of the Damned, The Prisoner, 22 Acacia Avenue, The Number of the Beast, Run to the Hills, Gangland, Hallowed Be Thy Name",
+    "link": "https://pt.wikipedia.org/wiki/The_Number_of_the_Beast",
+    "imagem": "img/Iron-Maiden.jpg",
+    "spotify_link": "https://open.spotify.com/album/5S3gls8Kjn8KVmqlIDEBbO?si=MquagUU2TOuKU0CbsbWvvA"
+  },
+  {
+    "banda": "Metallica",
+    "album": "Master of Puppets",
+    "ano": "1986",
+    "descricao": "Uma obra-prima do thrash metal, 'Master of Puppets' é aclamado por sua complexidade musical, letras maduras e energia avassaladora. Foi o último álbum com o baixista Cliff Burton e é frequentemente citado como o melhor da banda.",
+    "tracklist": "Battery, Master of Puppets, The Thing That Should Not Be, Welcome Home (Sanitarium), Disposable Heroes, Leper Messiah, Orion, Damage, Inc.",
+    "link": "https://pt.wikipedia.org/wiki/Master_of_Puppets",
+    "imagem": "img/Metallica.jpg",
+    "spotify_link": "https://open.spotify.com/album/2Lq2qX3hYhiuPckC8Flj21?si=xAyaP9JETw6BmpanOR-iGQ"
+  },
+  {
+    "banda": "Judas Priest",
+    "album": "Painkiller",
+    "ano": "1990",
+    "descricao": "Com a entrada do baterista Scott Travis, o Judas Priest lançou um de seus álbuns mais rápidos e pesados. 'Painkiller' redefiniu o som da banda e influenciou inúmeras bandas de power e speed metal.",
+    "tracklist": "Painkiller, Hell Patrol, All Guns Blazing, Leather Rebel, Metal Meltdown, Night Crawler, Between the Hammer & the Anvil, A Touch of Evil, Battle Hymn, One Shot at Glory",
+    "link": "https://pt.wikipedia.org/wiki/Painkiller_(%C3%A1lbum)",
+    "imagem": "img/Judas-Priest.jpg",
+    "spotify_link": "https://open.spotify.com/album/7LgrhuKnAXpNEv8qzcVd2t?si=K4gGKLiNTmuIPHI7af8-1w"
+  },
+  {
+    "banda": "Slayer",
+    "album": "Reign in Blood",
+    "ano": "1986",
+    "descricao": "Um marco do thrash metal, 'Reign in Blood' é conhecido por sua velocidade implacável, agressividade e produção crua. Com apenas 29 minutos, o álbum é um ataque sônico do início ao fim, definindo o extremismo no metal.",
+    "tracklist": "Angel of Death, Piece by Piece, Necrophobic, Altar of Sacrifice, Jesus Saves, Criminally Insane, Reborn, Epidemic, Postmortem, Raining Blood",
+    "link": "https://pt.wikipedia.org/wiki/Reign_in_Blood",
+    "imagem": "img/Slayer.jpg",
+    "spotify_link": "https://open.spotify.com/album/5v5BfkxWDAKTkzrXl3H0mU?si=MCBWy_W-QFeOxMKOfXaG9A"
+  },
+  {
+    "banda": "Pantera",
+    "album": "Vulgar Display of Power",
+    "ano": "1992",
+    "descricao": "Este álbum consolidou o som groove metal do Pantera, com riffs pesados e cortantes de Dimebag Darrell e os vocais agressivos de Phil Anselmo. 'Vulgar Display of Power' é uma referência de peso e atitude dos anos 90.",
+    "tracklist": "Mouth for War, A New Level, Walk, Fucking Hostile, This Love, Rise, No Good (Attack the Radical), Live in a Hole, Regular People (Conceit), By Demons Be Driven, Hollow",
+    "link": "https://pt.wikipedia.org/wiki/Vulgar_Display_of_Power",
+    "imagem": "img/Pantera.jpg",
+    "spotify_link": "https://open.spotify.com/album/7kW0cpKgSVsEqcc8xgbSb0?si=XJ6Av-SvTrCtOdQxG3ppJg"
+  },
+  {
+    "banda": "Megadeth",
+    "album": "Rust in Peace",
+    "ano": "1990",
+    "descricao": "Considerado um dos pilares do thrash metal técnico, 'Rust in Peace' é famoso por seus arranjos complexos, solos virtuosos de Dave Mustaine e Marty Friedman, e letras sobre guerra e política.",
+    "tracklist": "Holy Wars... The Punishment Due, Hangar 18, Take No Prisoners, Five Magics, Poison Was the Cure, Lucretia, Tornado of Souls, Dawn Patrol, Rust in Peace... Polaris",
+    "link": "https://pt.wikipedia.org/wiki/Rust_in_Peace",
+    "imagem": "img/Megadeth.jpg",
+    "spotify_link": "https://open.spotify.com/album/4e6ML9RBhDyyKTaTwbiRZv?si=0Cn3uQUOTUioQ1xcJSH99A"
+  },
+  {
+    "banda": "Dio",
+    "album": "Holy Diver",
+    "ano": "1983",
+    "descricao": "Após sua saída do Black Sabbath, Ronnie James Dio lançou este álbum de estreia que se tornou um clássico instantâneo. Com a faixa-título e 'Rainbow in the Dark', 'Holy Diver' definiu o som do metal épico dos anos 80.",
+    "tracklist": "Stand Up and Shout, Holy Diver, Gypsy, Caught in the Middle, Don't Talk to Strangers, Straight Through the Heart, Invisible, Rainbow in the Dark, Shame on the Night",
+    "link": "https://pt.wikipedia.org/wiki/Holy_Diver",
+    "imagem": "img/Dio.jpg",
+    "spotify_link": "https://open.spotify.com/album/1QJmLRcuIMMjZ49elafR3K?si=9yMYtY20Qg6_NIi_i_QSiA"
+  },
+  {
+    "banda": "Motörhead",
+    "album": "Ace of Spades",
+    "ano": "1980",
+    "descricao": "Um marco do rock pesado, 'Ace of Spades' é um álbum rápido, sujo e barulhento que influenciou tanto o punk quanto o metal. A faixa-título é um dos maiores hinos da história do rock.",
+    "tracklist": "Ace of Spades, Love Me Like a Reptile, Shoot You in the Back, Live to Win, Fast and Loose, (We Are) The Road Crew, Fire, Fire, Jailbait, Dance, Bite the Bullet, The Chase Is Better Than the Catch, The Hammer",
+    "link": "https://pt.wikipedia.org/wiki/Ace_of_Spades_(%C3%A1lbum)",
+    "imagem": "img/Motorhead.jpg",
+    "spotify_link": "https://open.spotify.com/album/1LORPYoTiPGpJC37GqYSvC?si=ZgTupBZuRXOz23tRlnIX3A"
+  },
+  {
+    "banda": "Sepultura",
+    "album": "Roots",
+    "ano": "1996",
+    "descricao": "Um álbum inovador que fundiu o metal com ritmos tribais brasileiros. 'Roots' levou o Sepultura ao estrelato mundial e é aclamado por sua originalidade e peso, com a participação de Carlinhos Brown e tribos indígenas.",
+    "tracklist": "Roots Bloody Roots, Attitude, Cut-Throat, Ratamahatta, Breed Apart, Straighthate, Spit, Lookaway, Dusted, Born Stubborn, Jasco, Itsári, Ambush, Endangered Species, Dictatorshit",
+    "link": "https://pt.wikipedia.org/wiki/Roots_(%C3%A1lbum_de_Sepultura)",
+    "imagem": "img/Sepultura.jpg",
+    "spotify_link": "https://open.spotify.com/album/5JjnPCfpp6redrkKpXZAs8?si=WARIkFN4SHWeeTO0K9Jw4g"
+  },
+  {
+    "banda": "Iron Maiden",
+    "album": "Powerslave",
+    "ano": "1984",
+    "descricao": "Este quinto álbum de estúdio é um marco do NWOBHM, conhecido por suas letras épicas baseadas em história e mitologia, e pela mega-estrutura de 'Rime of the Ancient Mariner'.",
+    "tracklist": "Aces High, 2 Minutes to Midnight, Losfer Words (Big 'Orra), Flash of the Blade, The Duellists, Back in the Village, Powerslave, Rime of the Ancient Mariner",
+    "link": "https://pt.wikipedia.org/wiki/Powerslave",
+    "imagem": "img/Powerslave.jpg",
+    "spotify_link": "https://open.spotify.com/album/309KOMEivisMmBuzk09635?si=seziB3Q3QlqMl5t-ydDb1Q"
+  },
+  {
+    "banda": "Judas Priest",
+    "album": "British Steel",
+    "ano": "1980",
+    "descricao": "Álbum seminal que ajudou a definir o som do Heavy Metal clássico, caracterizado por riffs diretos, produção limpa e a introdução de hinos de rádio como 'Breaking the Law' e 'Living After Midnight'.",
+    "tracklist": "Breaking the Law, Rapid Fire, Metal Gods, Grinder, United, Living After Midnight, You Don't Have to Be Old to Be Wise, The Rage, Steeler",
+    "link": "https://pt.wikipedia.org/wiki/British_Steel",
+    "imagem": "img/British-Steel.jpg",
+    "spotify_link": "https://open.spotify.com/album/5bqtZRbUZUxUps8mrO9tGY?si=ByLe2JQ0Sv2_Ra0MU52mRQ"
+  },
+  {
+    "banda": "Black Sabbath",
+    "album": "Heaven and Hell",
+    "ano": "1980",
+    "descricao": "O primeiro álbum com Ronnie James Dio nos vocais, marcando uma revitalização na carreira do Sabbath. O som se tornou mais épico e melódico, influenciando o Power Metal subsequente.",
+    "tracklist": "Neon Knights, Children of the Sea, Lady Evil, Heaven and Hell, Wishing Well, Die Young, Walk Away, Lonely Is the Word",
+    "link": "https://pt.wikipedia.org/wiki/Heaven_and_Hell",
+    "imagem": "img/Heaven-and-hell.jpg",
+    "spotify_link": "https://open.spotify.com/album/46gHYWaRr052RGEiL5Dg7T?si=2yMqUgHzSpW76miTKPagLQ"
+  },
+  {
+    "banda": "Metallica",
+    "album": "...And Justice for All",
+    "ano": "1988",
+    "descricao": "Um álbum de Thrash Metal progressivo e complexo, conhecido por sua longa duração, estruturas intrincadas e, notoriamente, a ausência audível do baixo de Jason Newsted na mixagem final.",
+    "tracklist": "Blackened, ...And Justice for All, Eye of the Beholder, One, The Shortest Straw, Harvester of Sorrow, The Frayed Ends of Sanity, To Live Is to Die, Dyers Eve",
+    "link": "https://pt.wikipedia.org/wiki/...And_Justice_for_All",
+    "imagem": "img/and-justice-for-all.jpg",
+    "spotify_link": "https://open.spotify.com/album/6jZ1z25PyF4Yd3kHxt9rl1?si=uPlGkTO8Qwe5kpwMrSfjrQ"
+  },
+  {
+    "banda": "Megadeth",
+    "album": "Peace Sells... But Who's Buying?",
+    "ano": "1986",
+    "descricao": "O segundo álbum da banda, essencial para o Thrash Metal. A faixa-título se tornou um hino anti-establishment e o mascote Vic Rattlehead solidificou sua imagem.",
+    "tracklist": "Wake Up Dead, The Conjuring, Peace Sells, Devil's Island, Good Mourning/Black Friday, Bad Omen, I Ain't Superstitious, My Last Words",
+    "link": "https://pt.wikipedia.org/wiki/Peace_Sells..._But_Who%27s_Buying%3F",
+    "imagem": "img/Peace-sells-but-who's-buying.jpg",
+    "spotify_link": "https://open.spotify.com/album/4PqSk2iBHnsYQK0ecXjS9k?si=Jil2CglpQ_GnskjVMIa1Zw"
+  },
+  {
+    "banda": "Slayer",
+    "album": "South of Heaven",
+    "ano": "1988",
+    "descricao": "Lançado após o frenético 'Reign in Blood', este álbum diminuiu intencionalmente o andamento e focou em atmosferas sombrias e riffing mais denso, mantendo a agressão lírica.",
+    "tracklist": "South of Heaven, Silent Scream, Live Undead, Behind the Crooked Cross, Mandatory Suicide, Ghosts of War, Read Between the Lies, Cleanse the Soul, Dissident Aggressor",
+    "link": "https://pt.wikipedia.org/wiki/South_of_Heaven",
+    "imagem": "img/South-of-heaven.jpg",
+    "spotify_link": "https://open.spotify.com/album/2UqJjz5eMYRzbbKToD3Peh?si=4AcUbLntSA6mtcsh3k2yNg"
+  },
+  {
+    "banda": "Anthrax",
+    "album": "Among the Living",
+    "ano": "1987",
+    "descricao": "Um dos álbuns essenciais do Big Four do Thrash, conhecido por suas letras influenciadas pela cultura pop (Stephen King) e por faixas que definiram o crossover entre Thrash e Hardcore.",
+    "tracklist": "Among the Living, Caught in a Mosh, I Am the Law, Efilnikufesin (N.F.L.), A Skeleton in the Closet, Indians, One World, A.I.R., Skeletons in the Closet",
+    "link": "https://pt.wikipedia.org/wiki/Among_the_Living",
+    "imagem": "img/among-the-living.jpg",
+    "spotify_link": "https://open.spotify.com/album/4Y2jEzU70sLpTCMCl6JE0t?si=J5TrxBxAQ-yaZOlIoC8eng"
+  },
+  {
+    "banda": "Motörhead",
+    "album": "Overkill",
+    "ano": "1979",
+    "descricao": "O segundo álbum do Motörhead, crucial para estabelecer a fórmula de Speed Metal: velocidade, sujeira punk e o som inconfundível do baixo distorcido de Lemmy.",
+    "tracklist": "Overkill, Stay Clean, (I Won't) Pay Your Price, I'll Be Your Sister, Capricorn, No Class, Damage Case, Tear Ya Down, Metropolis, Limb from Limb",
+    "link": "https://pt.wikipedia.org/wiki/Overkill_(%C3%A1lbum_do_Mot%C3%B6rhead)",
+    "imagem": "img/overkill.jpg",
+    "spotify_link": "https://open.spotify.com/album/5PL1jgjf8eDo8glt0F20xx?si=wcDMT-0USmW1S-cviZlOuA"
+  },
+  {
+    "banda": "Dio",
+    "album": "The Last in Line",
+    "ano": "1984",
+    "descricao": "O segundo álbum da banda Dio, solidificando seu sucesso após 'Holy Diver'. Contém hinos do Heavy Metal como 'We Rock' e a faixa-título, com temas de fantasia e conflito.",
+    "tracklist": "We Rock, The Last in Line, Breathless, I Speed at Night, One Night in the City, Evil Eyes, Mystery, Eat Your Heart Out, Egypt (The Chains Are On)",
+    "link": "https://pt.wikipedia.org/wiki/The_Last_in_Line",
+    "imagem": "img/the-last-in-line.jpg",
+    "spotify_link": "https://open.spotify.com/album/2Oc6mL1VEuNPUEkbVeN1P0?si=sihRPidjTcCBonKhGafelw"
+  },
+  {
+    "banda": "Mercyful Fate",
+    "album": "Melissa",
+    "ano": "1983",
+    "descricao": "Um dos álbuns mais importantes do Metal europeu dos anos 80, combinando Heavy Metal tradicional com temas satânicos, vocais únicos de King Diamond e estruturas progressivas.",
+    "tracklist": "Evil, Curse of the Pharaohs, Into the Coven, At the Sound of the Demon Bell, Black Funeral, Nuns Have No Fun, Melissa",
+    "link": "https://pt.wikipedia.org/wiki/Melissa_(%C3%A1lbum)",
+    "imagem": "img/melissa.jpg",
+    "spotify_link": "https://open.spotify.com/album/1hxG9oE767xQ4MLsEU5u58?si=JdYmH5jyRwSFeoLuotO_Cw"
+  },
+  {
+    "banda": "Venom",
+    "album": "Black Metal",
+    "ano": "1982",
+    "descricao": "Embora sonoramente cru e imperfeito, este álbum deu nome ao subgênero Black Metal, definindo uma estética de agressão, ocultismo e sonoridade 'suja' que influenciou incontáveis bandas extremas.",
+    "tracklist": "Black Metal, To Hell and Back, Buried Alive, Raise the Dead, Teachers Pet, Leave Me in Hell, Sacrificed, Heavens on Fire, Countess Bathory, Don't Burn the Witch, At War With Satan (Preview)",
+    "link": "https://pt.wikipedia.org/wiki/Black_Metal_(%C3%A1lbum)",
+    "imagem": "img/black-metal.jpg",
+    "spotify_link": "https://open.spotify.com/album/3uu3HprlV6aRI0IDNF1cLi?si=ouKol5AyQ2CFYGiNszuSAQ"
+  },
+  {
+    "banda": "Helloween",
+    "album": "Keeper of the Seven Keys, Pt. I",
+    "ano": "1987",
+    "descricao": "Álbum que solidificou o subgênero Power Metal melódico. Com a chegada do vocalista Michael Kiske, a banda elevou o nível técnico e melódico do Metal alemão.",
+    "tracklist": "Initiation, I'm Alive, A Little Time, Twilight of the Gods, A Tale That Wasn't Right, Future World, Halloween",
+    "link": "https://pt.wikipedia.org/wiki/Keeper_of_the_Seven_Keys,_Pt._I",
+    "imagem": "img/keeper-of-the.jpg",
+    "spotify_link": "https://open.spotify.com/album/6cVCvMPFJDMSByLFfHtn4U?si=aYyg8KzsRGSk2-1u_yxFVw"
+  },
+  {
+    "banda": "Accept",
+    "album": "Balls to the Wall",
+    "ano": "1983",
+    "descricao": "O álbum de maior sucesso da banda alemã, conhecido por seu riff implacável e o vocal gutural e potente de Udo Dirkschneider. Tornou-se um hino de resistência e força do Heavy Metal.",
+    "tracklist": "Balls to the Wall, London Leatherboys, Fight It Back, Head Over Heels, Losing More Than You've Ever Had, Love Child, Jaws of Death, Protectors of the Faith, Winter Dreams",
+    "link": "https://pt.wikipedia.org/wiki/Balls_to_the_Wall",
+    "imagem": "img/Balls-to-the.jpg",
+    "spotify_link": "https://open.spotify.com/album/2twCPCDGJjVD90GWUjA8vN?si=wW6lW97WRgSZ9dzsFdfKAg"
+  },
+  {
+    "banda": "King Diamond",
+    "album": "Abigail",
+    "ano": "1987",
+    "descricao": "O primeiro álbum conceitual da banda solo de King Diamond. Conta a história de um casal que herda uma mansão mal-assombrada e é atormentado pelo fantasma de uma criança natimorta, Abigail.",
+    "tracklist": "Funeral, Arrival, A Mansion in Darkness, The Family Ghost, The 7th Day of July 1777, Omens, The Possession, Abigail, Black Horsemen",
+    "link": "https://pt.wikipedia.org/wiki/Abigail_(%C3%A1lbum)",
+    "imagem": "img/abigail.jpg",
+    "spotify_link": "https://open.spotify.com/album/7zIqyMrapcp7QWM12NkjaD?si=HvrA7keVTC63QgF0ynGdMg"
+  },
+  {
+    "banda": "Candlemass",
+    "album": "Epicus Doomicus Metallicus",
+    "ano": "1986",
+    "descricao": "Considerado o álbum que definiu o gênero Doom Metal Épico. Caracterizado por andamentos lentos, riffs pesados e melancólicos, e vocais operísticos, criando uma atmosfera sombria e grandiosa.",
+    "tracklist": "Solitude, Demon's Gate, Crystal Ball, A Sorcerer's Pledge, The Well of Souls, At the Gallows End",
+    "link": "https://pt.wikipedia.org/wiki/Epicus_Doomicus_Metallicus",
+    "imagem": "img/epicus.jpg",
+    "spotify_link": "https://open.spotify.com/album/5LPgloXNv33FU3zCgby6fU?si=RO99jXFLQuylAVlYKhtf9A"
+  },
+  {
+    "banda": "Savatage",
+    "album": "Hall of the Mountain King",
+    "ano": "1987",
+    "descricao": "Um álbum de transição que introduziu elementos sinfônicos e progressivos ao seu som tradicional, marcando o início da fase mais ambiciosa e teatral da banda.",
+    "tracklist": "24 Hours Ago, Beyond the Doors of the Dark, Legions, Strange Wings, The Dungeons Are Calling, Hall of the Mountain King, Price of War, Prelude to Madness, Somewhere in Time",
+    "link": "https://pt.wikipedia.org/wiki/Hall_of_the_Mountain_King",
+    "imagem": "img/hall-of-the-mountain.jpg",
+    "spotify_link": "https://open.spotify.com/album/4Az37bO5GKMjXOk4ff5muF?si=OXQRb4q0TaGPEaxflJ3ocg"
+  },
+  {
+    "banda": "Bathory",
+    "album": "Under the Sign of the Black Mark",
+    "ano": "1987",
+    "descricao": "Terceiro álbum do projeto sueco Bathory, sendo crucial na evolução do Black Metal de primeira onda e apresentando elementos que mais tarde influenciariam o Viking Metal, especialmente na faixa 'Woman of Dark Desires'.",
+    "tracklist": "Nocternal Obeisance, Massacra, Woman of Dark Desires, Call from the Grave, Equimanthorn, Enter the Eternal Fire, Chariots of Fire, 13 Candles, Of Doom...",
+    "link": "https://pt.wikipedia.org/wiki/Under_the_Sign_of_the_Black_Mark",
+    "imagem": "img/under-the-sign.jpg",
+    "spotify_link": "https://open.spotify.com/album/1MzRbjZ2pm36RraTEZcgoR?si=_lo3A4V8QcCSzpYF1KU8Rw"
+  },
+  {
+    "banda": "Death",
+    "album": "Scream Bloody Gore",
+    "ano": "1987",
+    "descricao": "Considerado por muitos como o primeiro álbum verdadeiro de Death Metal. Liderado por Chuck Schuldiner, estabeleceu a sonoridade agressiva, rápida e focada em temas de terror e gore.",
+    "tracklist": "Infernal Death, Zombie Ritual, Denial of Life, Sacrificial, Mutilation, Regurgitated Guts, Baptized in Blood, Torn to Pieces, Evil Dead, Scream Bloody Gore",
+    "link": "https://pt.wikipedia.org/wiki/Scream_Bloody_Gore",
+    "imagem": "img/scream-bloody.jpg",
+    "spotify_link": "https://open.spotify.com/album/0PvGbpxBh7faAVbeZM4sIm?si=8pj3_mHDSaGAZJdoBi4zIg"
+  },
+  {
+    "banda": "Testament",
+    "album": "The Legacy",
+    "ano": "1987",
+    "descricao": "Um álbum de estreia influente do Bay Area Thrash Metal. Apresenta o vocal potente de Chuck Billy e o trabalho técnico de guitarra, sendo frequentemente comparado aos álbuns clássicos do Megadeth e Metallica.",
+    "tracklist": "Over the Wall, The Haunting, Burnt Offerings, Raging Waters, C.O.T.L.O.D., First Strike Is Deadly, Do or Die, Alone in the Dark, Apocalyptic City",
+    "link": "https://pt.wikipedia.org/wiki/The_Legacy_(%C3%A1lbum_de_Testament)",
+    "imagem": "img/the-legacy.jpg",
+    "spotify_link": "https://open.spotify.com/album/6HELG1uNTkBj4OwJcC9fY9?si=UiuDYLBfRRmcJTMAI4qY6Q"
+  },
+  {
+    "banda": "Overkill",
+    "album": "Taking Over",
+    "ano": "1987",
+    "descricao": "O segundo álbum da banda de Nova Jersey, aumentando a velocidade e a fúria. É a prova da agressão do Thrash da Costa Leste, impulsionado pelo vocal característico de Bobby 'Blitz' Ellsworth.",
+    "tracklist": "Wrecking Crew, Powersurge, In Union We Stand, Electro-Sarcophagus, Overkill III (Under the Influence), Hello From the Gutter, Nothing to Die For, Fatal if Swallowed, The Wait (Killing Joke cover)",
+    "link": "https://pt.wikipedia.org/wiki/Taking_Over",
+    "imagem": "img/taking-over.jpg",
+    "spotify_link": "https://open.spotify.com/album/5o5qYy6hUQwHP2zSqqRC8N?si=XpnchS7ISdaV8aXT9DkRtw"
+  },
+  {
+    "banda": "Celtic Frost",
+    "album": "Morbid Tales",
+    "ano": "1984",
+    "descricao": "Um EP (frequentemente listado como álbum) que pavimentou o caminho para o Black e Death Metal. Sua abordagem obscura, dissonante e rítmica foi inovadora e altamente influente.",
+    "tracklist": "Into the Crypts of Rays, Visions of Mortality, Dethroned Emperor, Circle of the Tyrants, Morbid Tales, Procreation (of the Inner Temple), Return to the Eve",
+    "link": "https://pt.wikipedia.org/wiki/Morbid_Tales",
+    "imagem": "img/morbid-tales.jpg",
+    "spotify_link": "https://open.spotify.com/album/44zdONTM6zSrXMJUV93BBM?si=KfrjnJbTS5yy3vX2svwXWw"
+  },
+  {
+    "banda": "Manowar",
+    "album": "Hail to England",
+    "ano": "1984",
+    "descricao": "Essencial para o 'True Metal' e o Power Metal épico. O álbum é curto, brutal e focado em letras de batalhas, fantasia e devoção ao Heavy Metal.",
+    "tracklist": "Blood of My Enemies, Each Dawn I Die, Kill With Power, Hail to England, Army of the Immortals, Black Arrows, Bridge of Death",
+    "link": "https://pt.wikipedia.org/wiki/Hail_to_England",
+    "imagem": "img/hail-to-england.jpg",
+    "spotify_link": "https://open.spotify.com/album/76LSkZgq2zzoUhiJY21giE?si=dx-RX_3HRy6CoMt6Ynjtcg"
+  },
+  {
+    "banda": "Angel Witch",
+    "album": "Angel Witch",
+    "ano": "1980",
+    "descricao": "Um clássico subestimado da NWOBHM, caracterizado por uma sonoridade mais escura e mística que o Iron Maiden ou Judas Priest, misturando ocultismo e Traditional Metal.",
+    "tracklist": "Angel Witch, Atlantis, Confused, Sorceress, Gorgon, Sweet Danger, Extermination Day, Wrathchild, Baphomet, Angel of Death",
+    "link": "https://pt.wikipedia.org/wiki/Angel_Witch_(%C3%A1lbum)",
+    "imagem": "img/angel-witch.jpg",
+    "spotify_link": "https://open.spotify.com/album/4uL3yn9nCDNOr0Dj4ycdqn?si=OsUi19dkQWSvtbJ0s4HE5Q"
+  },
+  {
+    "banda": "Coroner",
+    "album": "Punishment for Decadence",
+    "ano": "1988",
+    "descricao": "Um pilar do Thrash Metal técnico e progressivo suíço. O álbum é notável pela complexidade rítmica e pelas habilidades instrumentais que desafiaram os limites do gênero na época.",
+    "tracklist": "Shadow of a Lost Dream, The Gathering, Babel, Into the Crypts, Why Even Try, Inner Sanctum, Semtex Revolution, Punishment for Decadence, The End of the Harvest",
+    "link": "https://pt.wikipedia.org/wiki/Punishment_for_Decadence",
+    "imagem": "img/coroner.jpg",
+    "spotify_link": "https://open.spotify.com/album/2o6XqegTow2rfyKM9UglBX?si=JIIXik4iQ1SSAjULtdN5Bw"
+  },
+  {
+    "banda": "Queensrÿche",
+    "album": "Operation: Mindcrime",
+    "ano": "1988",
+    "descricao": "Um dos álbuns conceituais mais aclamados do Metal, contando a história de um viciado em drogas que se torna um assassino contratado em uma sociedade distópica. Gênero: Metal Progressivo/Heavy Metal.",
+    "tracklist": "Anarchy-X, Revolution Calling, Operation: Mindcrime, Speak, Spreading the Disease, The Mission, Suite Sister Mary, The Needle Lies, Breaking the Silence, I Don't Believe in Love, Waiting for 22, My Empty Room, Eyes of a Stranger",
+    "link": "https://pt.wikipedia.org/wiki/Operation:_Mindcrime",
+    "imagem": "img/operation.jpg",
+    "spotify_link": "https://open.spotify.com/album/16VzTNaeadMjxI03Xi9s6n?si=WG4soNMYScKnicWQU0M0rw"
+  }
+]

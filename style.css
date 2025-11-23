@@ -1,0 +1,471 @@
+/* Importação da fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos base e tema escuro (padrão) */
+:root {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg-color: #1e1e1e;
+    --card-border-color: #333;
+    --header-bg-color: #181818;
+    --accent-color: #d32f2f;
+    --fire-color-1: #ff6b08;
+    --fire-color-2: #f7b733;
+    --footer-bg-color: #181818;
+    --icon-color: #aaa;
+    --icon-hover-color: #fff;
+}
+
+/* Tema claro */
+body.light-theme {
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --card-bg-color: #ffffff;
+    --card-border-color: #ddd;
+    --header-bg-color: #f9f9f9;
+    --accent-color: #b71c1c;
+    --fire-color-1: #d32f2f;
+    --fire-color-2: #ff6b08;
+    --footer-bg-color: #f9f9f9;
+    --icon-color: #555;
+    --icon-hover-color: #000;
+}
+
+/* Reset e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    line-height: 1.6;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: var(--header-bg-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid var(--card-border-color);
+    position: relative;
+}
+
+.title-container {
+    width: 100%;
+}
+
+.fire-title {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fire-letter {
+    display: inline-block;
+    color: #fff; /* Cor base branca para o texto */
+    text-shadow: 
+        0 0 4px #fff,
+        0 0 10px var(--fire-color-2),
+        0 0 20px var(--fire-color-2),
+        0 0 40px var(--fire-color-1),
+        0 0 80px var(--fire-color-1);
+    animation: fire-animation 1.5s infinite linear; /* Aplica a animação */
+}
+
+.header-quote {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: var(--icon-color);
+}
+
+/* Ajuste do título para o tema claro */
+body.light-theme .fire-letter {
+    color: #121212; /* Cor preta para o texto no tema claro */
+    text-shadow: none; /* Remove o efeito de sombra/fogo */
+    animation: none; /* Remove a animação de fogo */
+}
+
+
+.header-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* Caixa de busca */
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 0;
+    padding: 0.5rem;
+    border: 1px solid var(--card-border-color);
+    border-radius: 20px;
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    opacity: 0;
+    transition: width 0.4s ease-in-out, opacity 0.4s ease-in-out, padding 0.4s;
+    max-width: 250px;
+}
+
+.search-box.active .search-input {
+    width: 180px; /* Largura no mobile */
+    opacity: 1;
+    padding-left: 1rem;
+}
+
+.search-btn, .theme-btn {
+    background: none;
+    border: none;
+    color: var(--icon-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s;
+}
+
+.search-btn:hover, .theme-btn:hover {
+    color: var(--accent-color);
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 1rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 coluna por padrão (mobile) */
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--card-border-color);
+    cursor: pointer; /* Adiciona o cursor de ponteiro para indicar que é clicável */
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s; /* Mantém a transição para o hover */
+
+    /* Animação de fade-in */
+    opacity: 0; /* Começa invisível */
+    animation: fade-in 0.5s ease-out forwards; /* Aplica a animação */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.card-year {
+    font-size: 0.9rem;
+    color: var(--icon-color);
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+    text-align: justify; /* Alinha o texto para um visual mais limpo */
+}
+
+.tracklist-container ul {
+    /* Adiciona um recuo à esquerda para a lista de músicas, alinhando os marcadores corretamente */
+    padding-left: 1.2rem; 
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.card-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spotify-link i {
+    font-size: 1.8rem;
+    color: #1DB954;
+    transition: transform 0.3s;
+}
+
+.spotify-link:hover i {
+    transform: scale(1.1);
+}
+
+/* Rodapé */
+.footer {
+    background-color: var(--footer-bg-color);
+    padding: 1.5rem 1rem;
+    padding-bottom: 2rem; /* Mais espaço no final */
+    border-top: 1px solid var(--card-border-color);
+    text-align: center;
+    color: var(--icon-color);
+}
+
+/* Barra de ícones flutuante */
+.floating-social-bar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--card-bg-color);
+    padding: 0.8rem 0.6rem;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.floating-social-bar.hidden {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-100%); /* Desliza para fora da tela */
+    pointer-events: none;
+}
+
+.floating-social-bar .footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Ícones empilhados verticalmente */
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: var(--icon-color);
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--icon-hover-color);
+    transform: scale(1.2);
+}
+
+/* Transforma a barra flutuante em um rodapé fixo em telas pequenas */
+@media (max-width: 767px) {
+    .floating-social-bar {
+        /* Sobrescreve os estilos de flutuação lateral */
+        left: 0;
+        top: auto; /* Remove o alinhamento ao topo */
+        bottom: 0; /* Fixa na parte inferior */
+        width: 100%;
+        transform: none; /* Reseta a transformação vertical */
+        border-radius: 0; /* Remove as bordas arredondadas */
+        padding: 0.6rem 0;
+        border-top: 1px solid var(--card-border-color);
+    }
+
+    .floating-social-bar.hidden {
+        transform: translateY(100%); /* Desliza para baixo ao invés de para o lado */
+    }
+
+    .floating-social-bar .footer-links {
+        flex-direction: row; /* Ícones em linha */
+        justify-content: center; /* Centraliza os ícones */
+        gap: 3rem; /* Ajusta o espaçamento para o layout horizontal */
+    }
+}
+
+/* --- MEDIA QUERIES PARA RESPONSIVIDADE --- */
+
+/* Telas de Tablet (768px ou mais) */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+    }
+
+    #title-container {
+        text-align: left;
+        width: auto; /* Permite que o título e os controles compartilhem o espaço */
+    }
+
+    .fire-title {
+        font-size: 2.5rem;
+        justify-content: flex-start;
+    }
+
+    .header-controls {
+        margin-top: 0;
+        width: auto;
+    }
+
+    .search-box.active .search-input {
+        width: 250px; /* Aumenta a caixa de busca em telas maiores */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    }
+}
+
+/* Telas de Desktop (1024px ou mais) */
+@media (min-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    }
+}
+
+/* Animação de fogo para o título */
+@keyframes fire-animation {
+    0% {
+        text-shadow: 0 0 4px #fff, 0 0 10px var(--fire-color-2), 0 0 20px var(--fire-color-2), 0 0 40px var(--fire-color-1), 0 0 80px var(--fire-color-1);
+    }
+    25% {
+        text-shadow: 0 0 6px #fff, 0 0 15px var(--fire-color-2), 0 0 25px var(--fire-color-2), 0 0 50px var(--fire-color-1), 0 0 90px var(--fire-color-1);
+    }
+    50% {
+        text-shadow: 0 0 4px #fff, 0 0 12px var(--fire-color-2), 0 0 22px var(--fire-color-2), 0 0 45px var(--fire-color-1), 0 0 85px var(--fire-color-1);
+    }
+    75% {
+        text-shadow: 0 0 7px #fff, 0 0 18px var(--fire-color-2), 0 0 28px var(--fire-color-2), 0 0 55px var(--fire-color-1), 0 0 100px var(--fire-color-1);
+    }
+    100% {
+        text-shadow: 0 0 4px #fff, 0 0 10px var(--fire-color-2), 0 0 20px var(--fire-color-2), 0 0 40px var(--fire-color-1), 0 0 80px var(--fire-color-1);
+    }
+}
+
+/* Adiciona um atraso de animação diferente para cada letra para um efeito mais natural */
+.fire-letter:nth-child(2) { animation-delay: 0.1s; }
+.fire-letter:nth-child(3) { animation-delay: 0.3s; }
+.fire-letter:nth-child(4) { animation-delay: 0.05s; }
+.fire-letter:nth-child(5) { animation-delay: 0.2s; }
+.fire-letter:nth-child(7) { animation-delay: 0.25s; }
+.fire-letter:nth-child(8) { animation-delay: 0.15s; }
+.fire-letter:nth-child(9) { animation-delay: 0.4s; }
+.fire-letter:nth-child(10) { animation-delay: 0.08s; }
+.fire-letter:nth-child(11) { animation-delay: 0.3s; }
+.fire-letter:nth-child(12) { animation-delay: 0.22s; }
+.fire-letter:nth-child(13) { animation-delay: 0.12s; }
+.fire-letter:nth-child(14) { animation-delay: 0.35s; }
+
+/* Animação de fade-in para os cards */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Começa 20px abaixo */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Termina na posição original */
+    }
+}
+
+/* --- ESTILOS DO MODAL --- */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+    z-index: 2000;
+    display: none; /* Começa oculto */
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.modal-overlay.active {
+    display: flex; /* Torna visível quando a classe 'active' é adicionada */
+}
+
+.modal-content {
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    max-width: 700px; /* Largura máxima no desktop */
+    width: 100%;
+    max-height: 90vh; /* Altura máxima para caber na tela */
+    overflow-y: auto; /* Adiciona scroll se o conteúdo for muito grande */
+    position: relative;
+    animation: fade-in 0.3s ease-out; /* Reutiliza a animação de fade-in */
+}
+
+/* Ajusta o conteúdo dentro do modal para ter mais espaçamento */
+.modal-content .card-content {
+    padding: 1.5rem;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.3s;
+}
+
+.modal-close-btn:hover {
+    color: var(--accent-color);
+}
+
+/* Impede a rolagem do corpo da página quando o modal está aberto */
+body.modal-open {
+    overflow: hidden;
+}
+
+/* Ajustes responsivos para o modal em telas pequenas */
+@media (max-width: 767px) {
+    .modal-content {
+        padding: 0; /* Remove padding extra no mobile */
+    }
+    .modal-content .card-content {
+        padding: 1rem; /* Ajusta o padding interno */
+    }
+    .modal-close-btn {
+        font-size: 2rem;
+    }
+}

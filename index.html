@@ -1,0 +1,77 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma principal do documento como português do Brasil -->
+<head> <!-- Contém metadados e links para recursos externos -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, essencial para exibir corretamente acentos e símbolos. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para garantir que a página seja renderizada corretamente em dispositivos móveis (design responsivo). -->
+    <meta name="referrer" content="no-referrer-when-downgrade"> <!-- Garante que as imagens de servidores externos sejam carregadas corretamente. -->
+    <!-- Link para a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS externo para estilizar a página -->
+    <title>Heavy Metalpedia</title> <!-- Define o título que aparece na aba do navegador -->
+</head> 
+<body> <!-- Corpo do documento, onde todo o conteúdo visível da página é colocado -->
+    <header> <!-- Seção de cabeçalho da página -->
+        
+        <div class="title-container" id="title-container">
+            <h1 class="fire-title"> <!-- Título com letras individuais para animação -->
+                <span class="fire-letter">H</span><span class="fire-letter">e</span><span class="fire-letter">a</span><span class="fire-letter">v</span><span class="fire-letter">y</span>
+                <span class="fire-letter">&nbsp;</span>
+                <span class="fire-letter">M</span><span class="fire-letter">e</span><span class="fire-letter">t</span><span class="fire-letter">a</span><span class="fire-letter">l</span><span class="fire-letter">p</span><span class="fire-letter">e</span><span class="fire-letter">d</span><span class="fire-letter">i</span><span class="fire-letter">a</span>
+            </h1>
+            <p class="header-quote">"Esses álbuns me ajudaram a compreender a essência do Heavy Metal"</p>
+        </div>
+        <div class="header-controls">
+            <!-- Contêiner da caixa de busca expansível -->
+            <div class="search-box">
+                <input type="text" id="campoBusca" class="search-input" placeholder="Busque por banda, álbum ou ano...">
+                <button id="search-toggle" class="search-btn" aria-label="Abrir busca">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- Botão de troca de tema -->
+            <button id="theme-toggle" class="theme-btn" aria-label="Mudar tema">
+                <i class="fa-solid fa-moon"></i> <!-- Ícone inicial: lua (tema escuro) -->
+            </button>
+        </div>
+    </header>
+    <main> <!-- Seção principal do conteúdo da página -->
+        <!-- A seção abaixo está comentada e serve como um modelo de como os cards de resultados serão estruturados. 
+             O JavaScript irá gerar dinamicamente conteúdo semelhante dentro da tag <main>. -->
+        <section class="card-container"> 
+            <!--<article class="card">
+                 <h2>Iron Maiden - The Number of the Beast</h2>
+                 <p>Ano: 1982</p>
+                 <p>Um álbum seminal que definiu o som do Iron Maiden com o novo vocalista Bruce Dickinson e se tornou um clássico do gênero.</p>
+                 <p>Tracklist: Invaders, Children of the Damned, The Prisoner, 22 Acacia Avenue, The Number of the Beast, Run to the Hills, Gangland, Hallowed Be Thy Name.</p>
+                 <a href="https://pt.wikipedia.org/wiki/The_Number_of_the_Beast" target="_blank">Saiba Mais</a>
+            </article> -->
+        </section> 
+    </main>
+
+    <!-- Ícones flutuantes de redes sociais -->
+    <div class="floating-social-bar">
+        <ul class="footer-links">
+            <li> <!-- Item da lista contendo um link. -->
+                <a href="https://github.com/NunezALC" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> <!-- Ícone do GitHub -->
+            </li>
+            <li> <!-- Item da lista contendo um link. -->
+                <a href="https://www.instagram.com/dorgivaldo.n/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> <!-- Ícone do Instagram -->
+            </li>
+            <li> <!-- Item da lista contendo um link. -->
+                <a href="https://www.linkedin.com/in/dorgivaldoalcantara/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> <!-- Ícone do LinkedIn -->
+            </li>
+        </ul>
+    </div>
+
+    <footer class="footer"> <!-- Seção de rodapé da página -->
+        <p>&copy; 2024 Heavy Metalpedia. Desenvolvido por Dorgivaldo Alcântara.</p>
+    </footer>
+
+    <!-- Estrutura do Modal (inicialmente oculta) -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div id="modal-content" class="modal-content"></div>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Fechar">&times;</button>
+    </div>
+    <script src="script.js"></script> <!-- Vincula o arquivo JavaScript, que contém a lógica da página (como a função de busca). -->
+</body> 
+</html> 
