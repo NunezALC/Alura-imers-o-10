@@ -11,7 +11,7 @@ Tema Claro/Escuro: O usuário pode alternar entre um tema claro e um escuro para
 Design Responsivo: A aplicação se adapta a diferentes tamanhos de tela, garantindo uma boa experiência tanto em computadores quanto em dispositivos móveis.
 
 🛠️ Tecnologias Utilizadas
-HTML5: Foi utilizado para a estruturação semântica do conteúdo da página. Elementos como <header>, <main>, <footer>, <section> e <article> foram usados para organizar o layout de forma clara e acessível, definindo o esqueleto da aplicação, desde o cabeçalho até os cards individuais de cada álbum.
+HTML5: Foi utilizado para a estruturação semântica do conteúdo da página. Elementos como header, main, footer, section e article foram usados para organizar o layout de forma clara e acessível, definindo o esqueleto da aplicação, desde o cabeçalho até os cards individuais de cada álbum.
 
 CSS3: Responsável por toda a apresentação visual e pela responsividade da interface. Foi aplicado para:
 
